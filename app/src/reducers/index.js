@@ -28,7 +28,7 @@ import {
           editing: !state.editing
         };
       case FETCHING_ANIMAL_START:
-        console.log("fetching a new joke");
+        console.log("fetching a new doggie");
         return {
           ...state,
           isFetching: true

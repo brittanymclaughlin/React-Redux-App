@@ -7,6 +7,7 @@ import thunk from "redux-thunk";
 
 import Title from "./components/Title";
 import Dog from "./components/Dog";
+import "./App.css"
 
 let store = createStore(appReducer, applyMiddleware(thunk));
 
@@ -21,7 +22,7 @@ function App() {
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
-  
+
   <Provider store={store}>
     <App />
   </Provider>,
